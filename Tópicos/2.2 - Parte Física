@@ -1,0 +1,12 @@
+2.2 Parte Física
+
+	Primeiro houve uma limpeza geral, dos racks novos que foram doados para a escola junto com a limpeza e migração   
+  imediata dos equipamentos que estavam no rack antigo para o novo, para que assim o laboratório em momento algum parasse   
+  de funcionar.
+	Após isso ocorreu toda a identificação dos cabos de rede, onde foram identificados e etiquetados cada um dos pontos   
+  de acesso,na sua conexão com o patch panel, para assim saber a qualquer momento sobre qual cabo específico cada computador   
+  é ligado na rede.
+	Aconteceu também a limpeza do rack antigo, e a abertura para limpeza interna dos servidores, que estavam até mesmo   
+  lentos por causa de tanta poeira. Após isso os servidores foram instalados no rack e foram configurados com o sistema de   
+  Raid 1, que é uma Raid de espelhamento, feita para ter uma maior segurança dos arquivos, e foi realizada a instalação do   
+  sistema operacional VMware ESXi, um sistema totalmente destinado para a virtualização em servidores.
