@@ -1,0 +1,27 @@
+2.4 VIRTUALIZAÇÃO
+
+	Virtualização é uma tecnologia que permite criar serviços de TI valiosos usando recursos que tradicionalmente estão   
+vinculados a um determinado hardware. Com a virtualização, é possível usar a capacidade total de uma máquina física,   
+distribuindo os recursos entre muitos usuários ou ambientes.
+  Em termos práticos, imagine que você possui três servidores físicos, cada um com finalidades específicas. O primeiro é um   
+servidor de e-mail, o segundo é um servidor web e o terceiro executa aplicativos legados internos. Você utiliza cerca de   
+30% da capacidade de cada servidor. No entanto, como os aplicativos legados ainda são importantes para as suas operações   
+internas, você é obrigado a manter esses aplicativos, assim como o servidor que os hospeda.   
+	Com a virtualização, você pode dividir o servidor de e-mail em dois servidores únicos, capazes de processar tarefas   
+independentes. Assim, é possível migrar os aplicativos legados. Trata-se do mesmo hardware, mas utilizado de forma mais   
+eficiente.   
+
+Como ela funciona:   
+	Programas de software chamados hipervisores separam os recursos físicos dos ambientes virtuais que precisam utilizar   
+tais recursos. Os hipervisores podem ser executados em um sistema operacional (como em um laptop) ou instalados diretamente   
+no hardware (como um servidor), que é o tipo de virtualização que adotamos. Os hipervisores dividem os recursos físicos para   
+que sejam utilizados por diferentes ambientes virtuais.
+  Os recursos do ambiente físico são particionados, conforme a necessidade, entre os diversos ambientes virtuais. Os   
+usuários interagem e executam as operações computacionais dentro do ambiente virtual (normalmente chamado de máquina   
+guest, virtual ou hospedeira). A máquina virtual funciona como um único arquivo de dados. E como qualquer outro arquivo   
+digital, ela pode ser transferida de um computador a outro, aberta em qualquer um e funcionar da mesma forma.
+  Quando o ambiente virtual está em execução e um programa ou usuário emite uma instrução que requer recursos adicionais do   
+ambiente físico, o hipervisor retransmite a solicitação ao sistema físico e armazena em cache as mudanças. Tudo isso acontece   
+em uma velocidade próxima à das operações nativas.
+  Nós buscamos fazer uma virtualização nos nossos servidores através do VMware ESXi, pois assim podemos aproveitar ao máximo   
+nossos equipamentos, economizando e não desperdiçando nada.
