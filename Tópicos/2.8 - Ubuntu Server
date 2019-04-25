@@ -1,0 +1,29 @@
+2.8 UBUNTU SERVER
+
+	O Ubuntu é um sistema operacional Open Source, construído a partir do Kernel Linux, com base no sistema Debian. É   
+desenvolvido pela Canonical Ltd. Geralmente é executado em computadores pessoais e também é popular em servidores de rede,   
+geralmente executando a versão Ubuntu Server, com recursos de classe empresarial.
+	A proposta do Ubuntu é oferecer um sistema que qualquer pessoa possa utilizar sem dificuldades, independentemente   
+de nacionalidade, nível de conhecimento ou limitações físicas. O sistema deve ser constituído principalmente por software   
+livre e deve também ser isento de qualquer taxa.
+	
+Ubuntu Server
+Essa versão do Ubuntu possui ferramentas muito defendidas pelos seus usuários. Ele conta com uma instalação sem interface   
+gráfica, como a maioria dos servidores em Linux, mas também pode apresentar uma interface gráfica caso você queira instalar.
+
+Entre as suas ferramentas e vantagens estão:
+    • Integração nativa com autenticação Active Directory, ótima para quem está usando o Samba ou criando um servidor de   
+      impressão.
+    • UFW, uma ferramenta nativa do Ubuntu que funciona como um firewall potente, segura e descomplicada, sendo mais   
+      intuitiva e tão segura quanto o iptables.
+    • Suporte a inúmeros Hardwares.
+    • Atualizações frequentes.
+    • Automatização de rotinas comuns.
+    • Suporte e treinamentos oficiais.
+
+  Essas ferramentas garantem que o Ubuntu Server seja uma opção segura e estável para ser usado por pessoas com diferentes   
+níveis de conhecimento. Por possuir atualizações mais frequentes e com menos testes que o Debian e Red Hat Enterprise Linux,   
+o Ubuntu pode apresentar mais erros e bugs, porém as suas constantes atualizações garantem que esses erros possam ser   
+corrigidos com mais agilidade.
+	Nós utilizamos o nosso Ubuntu Server como um servidor de arquivos através do serviço Samba, que permite o   
+ compartilhamento de arquivos com o Windows.

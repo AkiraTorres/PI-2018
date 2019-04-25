@@ -1,0 +1,8 @@
+2.5 VMware
+
+	VMware ESXi é um hipervisor de nível empresarial tipo 1 desenvolvido pela VMware para implantar e servir computadores   
+virtuais. Como hipervisor tipo 1, o ESXi não é um software aplicativo instalado em um sistema operacional; em vez disso,   
+inclui e integra componentes vitais do sistema operacional, como um núcleo.
+  Após a versão 4.1 (lançada em 2010), a VMware renomeou o ESX para ESXi. O ESXi substitui o Service Console (um sistema   
+operacional rudimentar) por um sistema operacional mais integrado. O ESX/ESXi é o principal componente do conjunto de   
+software VMware Infraestructure.

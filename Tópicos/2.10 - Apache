@@ -1,0 +1,9 @@
+2.10 APACHE
+	O Servidor Apache ou Servidor HTTP Apache é o mais bem-sucedido servidor web Open Source que existe. Trata-se de um   
+servidor web muito popular, utilizado principalmente no Linux.
+	Assim como qualquer servidor do tipo, o Apache é responsável por disponibilizar páginas e todos os recursos que podem   
+ser acessados pelo internauta. Envio de e-mails, mensagens, compras online e diversas outras funções que podem ser executadas   
+graças a servidores como o Apache. O que vale destacar no Apache é que, apesar de tudo, ele é distribuído sob a licença GNU,   
+ou seja, é gratuito e pode ser estudado e modificado através de seu código fonte por qualquer pessoa.
+	O Servidor Apache foi utilizado por nós em um sistema instalado com o Ubuntu Server 16.04 para separar o Servidor de   
+Arquivos do Servidor Web. Nós estamos o utilizando para realizar a hospedagem do site da NeoJabuti dentro da rede da escola.

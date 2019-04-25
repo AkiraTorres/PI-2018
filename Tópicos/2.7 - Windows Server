@@ -1,0 +1,41 @@
+2.7 WINDOWS SERVER
+
+  Windows Server é um sistema operacional para servidores desenvolvido pela Microsoft como parte da família para sistemas   
+operacionais Windows NT, desenvolvido simultaneamente com o Windows 10.
+  O Windows Server também é uma ferramenta que oferece às empresas e aos provedores de serviços uma excelente infraestrutura,   
+totalmente otimizada para quem deseja trabalhar em sincronia com a nuvem. Além disso, o SO é dinâmico, escalonável e   
+habilitado para o multilocatário.
+  Ideal para organizações que necessitam se conectar com segurança, o Windows Server também auxilia os profissionais de TI a   
+satisfazerem suas necessidades de negócio com mais praticidade, rapidez e eficiência.
+  Além disso o produto conta com fóruns para o esclarecimento de dúvidas e demais recursos técnicos, como White Papers,   
+Solution Accelerators e webcasts, acessíveis pela sua página oficial de recursos.
+Principais recursos
+    • Active Directory
+        ◦ O Active Directory é uma implementação de serviço de diretório no protocolo LDAP que armazena informações   
+          sobre objetos em rede de computadores e disponibiliza essas informações a usuários e administradores desta rede.   
+          É um software da Microsoft utilizado em ambientes Windows, presentes no Active Directory.
+        ◦ Para que os usuários possam acessar os recursos disponíveis na rede, estes deverão efetuar o logon e então o   
+        AD verifica se as informações fornecidas pelos usuários são válidas, e em caso positivo, faz a autenticação. O AD   
+          é organizado de uma forma hierárquica, com o uso de domínios, uma rede poderá conter vários domínios. Um domínio   
+          é nada mais do que um limite administrativo e de segurança, ou seja, o administrador do domínio possui permissões   
+          somente no domínio, e não em outros domínios. As políticas de segurança também se aplicam somente ao domínio, e   
+          não a outros domínios. Resumindo: diferentes domínios podem ter diferentes administradores e diferentes políticas   
+          de segurança.
+    • GPO – Políticas de Grupo
+        ◦ É um conjunto de regras que controlam o ambiente de trabalho de contas de usuário e contas de computador. Ela   
+          fornece o gerenciamento e configuração centralizados de sistemas operacionais, aplicativos e configurações dos   
+          usuários em um ambiente Active Directory. Em outras palavras, a Diretiva de Grupo controla em parte o que os   
+          usuários podem ou não fazer em um sistema de computador.
+    • DHCP
+        ◦ O Windows Server também funciona como um servidor DHCP, com a função de realizar a configuração dinâmica de   
+          terminais, com concessão de endereços IP de host, máscara de sub-rede, default gateway (gateway padrão),   
+          número IP de um ou mais servidores DNS, sufixos de pesquisa do DNS e número IP de um ou mais servidores WINS.
+    • DNS
+        ◦ Ele também realiza as funções de um servidor DNS, que é um sistema hierárquico e distribuído de gerenciamento   
+          de nomes para computadores, serviços ou qualquer máquina conectada a internet ou a uma rede privada. Faz a   
+          resolução de nomes, que não é nada menos que a tradução dos IPs na internet para nomes, que são muito mais   
+          fáceis de memorizar do que a sequencia de 4 octetos do IP.
+  No nosso servidor Windows nós estamos utilizando ele como um servidor AD, DHCP e DNS, ele que tem o controle majoritário   
+sobre a rede e determina como todas as máquinas usuárias devem se comportar, inclusive, bloqueando funções que poderiam   
+dar algumas dores de cabeça aos administradores do sistema. Ele também entrega toda a configuração de IPs para as   
+máquinas usuárias e funciona ele próprio para a resolução de nomes.

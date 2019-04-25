@@ -1,0 +1,16 @@
+2.9 SAMBA
+
+O Samba é um software executado em servidores, responsável por estabelecer interações com redes constituídas por computadores   
+operados em Windows possibilitando, assim, que todos os seus recursos sejam gerenciados e compartilhados.   
+
+Principais Funcionalidades:   
+    • compartilhamento de arquivos, impressoras, diretórios, entre outros, com máquinas que rodam o Windows;
+    • controle de acesso e privilégios;
+    • configurações a partir de ambientes remotos.
+    
+  Vale ressaltar que os recursos do Samba são bastante completos. Não por acaso, muitas corporações que possuem equipes de TI   
+dedicadas usufruem dos recursos do Samba.   
+  O Samba foi utilizado por nossa equipe como forma de criar uma busca por conhecimento dos alunos, qualquer aluno que   
+acesse as pastas compartilhadas em qualquer uma das máquinas do laboratório, encontrará apostilas e ISOs para a instalação   
+de sistemas operacionais em máquinas virtuais, promovendo um acesso maior dos alunos ao conhecimento, e os incentivando a   
+compartilhar esse conhecimento, visto que essa área será aberta para os alunos compartilharem suas apostilas, livros e ISOs.

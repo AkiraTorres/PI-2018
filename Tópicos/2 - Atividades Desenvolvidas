@@ -1,0 +1,16 @@
+2- ATIVIDADES DESENVOLVIDAS
+
+    • Limpeza dos racks que foram doados para a escola;
+    • Limpeza dos equipamentos (switches, patch panels, servidores, etc);
+    • Migração dos equipamentos do rack antigo para o rack novo;
+    • Identificação dos cabos de rede;
+    • Instalação do VMware no servidor;
+    • Configuração da Raid no servidor;
+    • Instalação das máquinas no VMware (Windows Server, Ubuntu Server, Web Server, pfSense, Windows 10);
+    • Configuração do Windows Server 2016 para utilização dos serviços Active Directory, DHCP e DNS;
+    • Configuração do Ubuntu Server 16.04 para ser utilizado como servidor de dados de arquivos para compartilhamento    
+        de itens usando o Samba;
+    • Configuração do Kali Linux 2018.3 como Servidor Web para hospedagem de um site da NeoJabuti através do Apache 2;
+    • Configuração do pfSense como proxy para liberar rede para todos os computadores e usando seu Firewall para   
+        bloquear sites como Facebook e YouTube;
+    • Instalação de uma máquina Windows 10 e sua integração no domínio para exibição e apresentação.
