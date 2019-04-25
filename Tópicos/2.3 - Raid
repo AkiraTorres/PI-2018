@@ -1,0 +1,35 @@
+2.3 RAID
+
+	  Arquitetura: Controladoras RAID em hardware usam layouts de disco proprietários diferenciados. Por isso não se   
+  misturam controladores de diferentes fabricantes. Bios,(Basic Input/Output System), inicia-se por ela, uma integração maior
+  com o driver pode oferecer um melhor tratamento de um erro. Uma implementação de RAID em hardware requer pelo menos uma   
+  controladora especialmente dedicada para isso. Nós fizemos o uso da RAID 1, por ela dar uma maior segurança aos arquivos.
+	  RAID 0 - No striping, ou distribuição, os dados são subdivididos em segmentos consecutivos (stripes, ou faixas)   
+  escritos sequencialmente através de cada um dos discos de um array, ou conjunto. Cada segmento tem um tamanho definido   
+  que são em blocos. A distribuição, ou striping, oferece melhor desempenho comparado a discos individuais, se o tamanho     
+  de cada segmento for ajustado de acordo com a aplicação que utilizará o conjunto, ou array.
+    
+Vantagens:
+    • acesso rápido as informações;
+    • custo baixo para expansão de memória.
+Desvantagens:
+    • caso algum dos setores de algum dos HDs venha a apresentar perda de informações, o mesmo arquivo que está dividido   
+      entre os mesmos setores dos demais HDs não terão mais sentido existir, pois uma parte do arquivo foi corrompida,   
+      ou seja, caso algum disco falhe, não tem como recuperar;
+    • não tem espelhamento;
+    • não é usada paridade.
+    
+RAID 1 - RAID-1 é o nível de RAID que implementa o espelhamento de disco, também conhecido como mirror. Para esta   
+implementação são necessários dois discos ou mais. O funcionamento deste nível é simples: todos os dados são gravados   
+em discos diferentes; se um disco falhar ou for removido, os dados preservados no outro disco permitem a não descontinuidade   
+da operação do sistema.
+
+Vantagens:
+    • caso algum setor de um dos discos venha a falhar, basta recuperar o setor defeituoso copiando os arquivos contidos do   
+      segundo disco;
+    • segurança nos dados (com relação a possíveis defeitos que possam ocorrer no HD).
+Desvantagens:
+    • custo relativamente alto se comparado ao RAID 0;
+    • ocorre aumento no tempo de escrita;
+    • Tem espelhamento;
+    • não é usada paridade.
