@@ -1,0 +1,40 @@
+2.6 pfSense
+
+	O pfSense é uma solução de Firewall largamente adotada e uma das mais robustas entre as opções Open Souce que substitui   
+com sucesso –na maioria das necessidade– os principais firewalls comerciais existentes no mercado como CheckPoint,   
+Sonicwall, Juniper, entre outros.
+	O pfSense também possui vários pacotes de software livre de terceiros para estender suas funcionalidades, tais como   
+Snort e Suricata para detecção e prevenção de intrusão, OpenBGPD, Squid com cache e proxy reverso com SquidGuard, antivírus com   
+ClamWin, além de vários outros pacotes de monitoramento e estatísticas.
+	Ele é um software com a licença BSD, ou seja, você não precisa pagar licenças de uso. Além de ser um software gratuito,   
+seus pacotes adicionais permite que ele seja considerado um UTM (Unified Threat Management, “Central Unificada de   
+Gerenciamento de Ameaças”), já que pode-se realizar com o pfSense muitas das atividades que esperamos de sistemas com esta   
+funcionalidade. Ele também possui relatórios em Gráficos RRD, modelagem de tráfego e filtragem e usa informações em tempo real.   
+Todos os recursos disponíveis são gerenciados exclusivamente por uma interface web de fácil interpretação.
+	O pfSense é uma excelente alternativa aos firewalls mais famosos do mercado. É ideal para clientes que querem economizar   
+mas ao mesmo tempo precisam de um sistema que lhes forneça confiabilidade em suas conexões com a rede.
+Principais recursos:
+    • DashBoard
+        ◦ O pfSense possí um Dashboard onde você pode configurar quais informações quer mostrar de forma bem flexível. Isso   
+          permite um controle e monitoramento completo da sua solução de firewall.
+    • High Availability
+        ◦ A combinação de CARP, pfsync e a sincronização de configuração fornece a funcionalidade de alta disponibilidade no   
+          pfSense. Você pode configurar dois ou mais firewalls como um grupo de falha, Se o firewall primário ficar offline   
+          o secundário se tona ativo de forma automática. O pfSense inclui a capacidade de sincronização de configuração, ou   
+          seja, qualquer alteração de configuração feita no primário automaticamente é sincronizada com o firewall secundário.   
+          A tabela de estado do firewall é replicada para todos os firewalls de failover configurado. Isso significa que suas   
+          conexões existentes serão mantidas em caso de falha, o que é importante para evitar interrupções de rede impactando   
+          o negócio da empresa.
+    • Multi-WAN
+        ◦ A funcionalidade Multi-Wan permite o uso de múltiplas conexões de internet, com balanceamento de carga e/ou failover,   
+          para melhorar a disponibilidade de internet e a distribuição do uso da banda.
+    • Virtual Private Network (VPN)
+        ◦ O pfSense oferece três opções para conectividade de VPN, IPsec, OpenVPN e PPTP que são os principais protocolos de   
+          VPN usados no mercado. Na parte de monitoramento é possível obter um relatório de todos os usuário conectados na   
+          VPN em tempo real, como também interromper uma conexão específica trazendo um controle maior para o SysAdmin.   
+          O pfSense exibe os usuários conectados e o volume de dados consumidos por cada um.
+  Nós utilizamos o pfSense na nossa rede principalmente por ele ser uma opção Open Source e por ter várias funções. Nós o   
+usamos para ele fazer a liberação de internet para todas as outras máquinas na rede, permitindo o acesso da rede a   
+internet e bloqueando o acesso a alguns sites indevidos, como por exemplo o Facebook e o YouTube.
+
+
