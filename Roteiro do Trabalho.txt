@@ -1,0 +1,14 @@
+Introdução - Filipe
+NeoJabuti - Anthony
+Parte Física - Marcelo
+Raid - Marcelo
+Virtualização - Filipe
+VMware - Marcelo
+pfSense - Filipe
+Windows Server - Dns,ADDS, DHCP - Kauan
+Ubuntu Server - Samba, Apache - Thiago
+Samba - Thiago
+Apache - Kauan
+Site - Kauan
+StarCraftamente Planejado - Anthony
+Conclusão - Thiago
